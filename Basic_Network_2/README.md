@@ -17,8 +17,8 @@ This lab demonstrates the configuration of a simple network divided into multipl
   - VTP
 
 ## Verification
-- EndPoints in the same VLAN can communicate
-- EndPoints in different VLANs can communicate through the router
+- EndPoints in the same subnet and VLAN can communicate
+- EndPoints in different subnets and VLANs can communicate through the router
 
 ## Files
 - `Basic_Network_2` → Packet Tracer project
