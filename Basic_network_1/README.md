@@ -16,6 +16,6 @@ This lab demonstrates the configuration of a simple network divided into 2 LANs.
 - EndPoints in different LANs can communicate through the router
 
 ## Files
-- `Basic_Network_1` → Packet Tracer project
+- `Basic_Network_1.ptk` → Packet Tracer project
 - `Basic_topology_1.png` → Network diagram
 - `Basic_configs/` → Device configurations
