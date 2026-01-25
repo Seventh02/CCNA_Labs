@@ -1,0 +1,97 @@
+Building configuration...
+
+Current configuration : 1156 bytes
+!
+version 15.4
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname R2
+!
+!
+!
+enable secret 5 $1$mERr$NJdjwh5wX8Ia/X8aC4RIu.
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0/0
+ description ## To R1 ##
+ ip address 192.168.0.162 255.255.255.224
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/0/1
+ description ## To SW3 ##
+ no ip address
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/0/1.30
+ encapsulation dot1Q 30
+ ip address 192.168.0.65 255.255.255.224
+!
+interface GigabitEthernet0/0/1.40
+ encapsulation dot1Q 40
+ ip address 192.168.0.97 255.255.255.224
+!
+interface GigabitEthernet0/0/1.50
+ encapsulation dot1Q 50
+ ip address 192.168.0.129 255.255.255.224
+!
+interface GigabitEthernet0/0/2
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip classless
+ip route 192.168.0.0 255.255.255.224 192.168.0.161 
+ip route 192.168.0.32 255.255.255.224 192.168.0.161 
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
