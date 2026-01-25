@@ -6,7 +6,7 @@ This lab demonstrates the configuration of a simple network divided into 2 LANs.
 ## Topology
 - 1 Router
 - 2 Switches
-- 6 EndPoints
+- 8 EndPoints
 
 ## Technologies Used
 - IPv4
