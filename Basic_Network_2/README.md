@@ -1,7 +1,7 @@
 # Network fundamentals
 
 ## Description
-This lab demonstrates the configuration of a simple network divided into 2 LANs.
+This lab demonstrates the configuration of a simple network divided into multiples subnets and Vlans.
 
 ## Topology
 - 2 Router
