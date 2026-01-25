@@ -1,0 +1,145 @@
+Building configuration...
+
+Current configuration : 2314 bytes
+!
+version 15.0
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname SW3
+!
+enable secret 5 $1$mERr$NJdjwh5wX8Ia/X8aC4RIu.
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+interface FastEthernet0/1
+ switchport access vlan 30
+ switchport mode access
+!
+interface FastEthernet0/2
+ switchport access vlan 30
+ switchport mode access
+!
+interface FastEthernet0/3
+ switchport access vlan 50
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 50
+ switchport mode access
+!
+interface FastEthernet0/5
+ switchport access vlan 40
+ switchport mode access
+!
+interface FastEthernet0/6
+ switchport access vlan 40
+ switchport mode access
+!
+interface FastEthernet0/7
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/8
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/9
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/10
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/11
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/12
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/13
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/14
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/15
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/16
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/17
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/18
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/19
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/20
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/21
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/22
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/23
+ description ## Not in use ##
+ shutdown
+!
+interface FastEthernet0/24
+ description ## Not in use ##
+ shutdown
+!
+interface GigabitEthernet0/1
+ switchport trunk native vlan 1000
+ switchport trunk allowed vlan 30,40,50
+ switchport mode trunk
+ switchport nonegotiate
+!
+interface GigabitEthernet0/2
+ description ## Not in use ##
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+!
+!
+!
+line con 0
+!
+line vty 0 4
+ login
+line vty 5 15
+ login
+!
+!
+!
+!
+end
