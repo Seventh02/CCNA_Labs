@@ -7,6 +7,12 @@ This repository contains Cisco Packet Tracer labs created by me as part of my CC
 - Static routing
 - Subnetting
 - VLANs
+    - DTP
+    - VTP
+- STP/RSTP
+- Etherchannel
+- Dynamic routing
+    - OSPF
 
 ## Purpose
 These labs demonstrate my understanding of network fundamentals, routing & switching, and basic network troubleshooting using Cisco devices.
