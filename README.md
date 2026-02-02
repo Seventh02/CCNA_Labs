@@ -4,8 +4,7 @@ This repository contains Cisco Packet Tracer labs created by me as part of my CC
 
 ## Technologies Covered (Until now)
 - Basic Network Troubleshooting
-- IPv4
-- IPv6
+- IPv4/IPv6
 - Static routing
 - Subnetting
 - VLANs
