@@ -14,7 +14,7 @@ This repository contains Cisco Packet Tracer labs created by me as part of my CC
 - Etherchannel
 - Dynamic routing
     - OSPF
--TCP/UDP
+- TCP/UDP
 - ACLs
 
 ## Purpose
