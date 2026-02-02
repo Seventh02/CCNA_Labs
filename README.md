@@ -4,6 +4,8 @@ This repository contains Cisco Packet Tracer labs created by me as part of my CC
 
 ## Technologies Covered (Until now)
 - Basic Network Troubleshooting
+- IPv4
+- IPv6
 - Static routing
 - Subnetting
 - VLANs
@@ -13,6 +15,7 @@ This repository contains Cisco Packet Tracer labs created by me as part of my CC
 - Etherchannel
 - Dynamic routing
     - OSPF
+- ACLs
 
 ## Purpose
 These labs demonstrate my understanding of network fundamentals, routing & switching, and basic network troubleshooting using Cisco devices.
